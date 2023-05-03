@@ -1,0 +1,56 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: #FDFDFD;
+}
+
+/* background */
+
+.texto{
+    margin: 0px 10px;
+    width: 40%;
+}
+
+/* area de .download */
+.home img{
+    margin: 0px 10px;
+    max-width: 400px;
+}
+
+.home-download{
+    color: #fff;
+    background-image: url("../../assets/fundoAzul.jpg");
+    text-align: center;
+}
+
+.home-sobre {
+    background-image: url("../../assets/FundoBranco.jpg");
+}
+
+.home-depoimentos{
+    justify-content: space-around;
+    background-color: #00296B;
+}
+.home-depoimentos-destaque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45vw;
+    height: 80vh;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background-image: url("../../assets/FundoBranco.jpg");
+
+}
+.texto-depoimento{
+    color: #fff;
+}
+
+.home-quemSomos{
+    background-image: url("../../assets/FundoBranco.jpg");
+}
