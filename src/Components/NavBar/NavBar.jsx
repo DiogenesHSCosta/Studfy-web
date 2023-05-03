@@ -35,7 +35,6 @@ export default function NavBar() {
             <Link to='/app'><li>App</li></Link>
             <Link to='/depoimentos'><li>Depoimentos</li></Link>
             <Link to='/quem-somos'><li>Quem somos</li></Link>
-            
         </ul>
       </nav>
     </header>

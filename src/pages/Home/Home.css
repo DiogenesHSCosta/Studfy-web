@@ -44,17 +44,13 @@
     width: 45vw;
     height: 80vh;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    background-image: url("../../assets/FundoBranco.jpg");
-
+    background-color: #fff;
 }
+
 .texto-depoimento{
     color: #fff;
+    position: relative;
 }
-
-.home-quemSomos{
-    /* background-image: url("../../assets/FundoBranco.jpg"); */
-}
-
 .home-quemSomos-cards{
     display: flex;
     justify-content: center;

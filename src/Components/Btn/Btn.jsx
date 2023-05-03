@@ -7,7 +7,7 @@ const Btn = (props) => {
     let info = `${props.type}`
                         
     return (
-        <Link to={props.link}>
+        <Link to={props.link} className='teste'>
             <button className={info}>
                 {props.text}
             </button>
