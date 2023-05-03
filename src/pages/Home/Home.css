@@ -30,7 +30,7 @@
 }
 
 .home-sobre {
-    background-image: url("../../assets/FundoBranco.jpg");
+    /* background-image: url("../../assets/FundoBranco.jpg"); */
 }
 
 .home-depoimentos{
@@ -52,5 +52,11 @@
 }
 
 .home-quemSomos{
-    background-image: url("../../assets/FundoBranco.jpg");
+    /* background-image: url("../../assets/FundoBranco.jpg"); */
+}
+
+.home-quemSomos-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
