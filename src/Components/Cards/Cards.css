@@ -1,4 +1,5 @@
 .cards{
+    position: relative;
     width: 280px;
     height: 320px;
     margin: 30px;
@@ -10,8 +11,28 @@
     align-items: center;
     transition: 0.5s;
 }
+
 .cards:hover{
     scale: 1.05;
+}
+
+.cards::after{
+    content: " ";
+    width: 90%;
+    height: 4px;
+    background-color: #FFDA1F;
+    position: absolute;
+    bottom: 0;
+    left: 50;
+    border-radius: 20px;
+    transition: transform 0.5s ease-in-out;
+
+    transform-origin: center;
+    transform: scaleX(0);
+}
+.cards:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
 }
 
 .cards-img{
