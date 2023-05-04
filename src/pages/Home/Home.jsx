@@ -13,15 +13,17 @@ const Home = () => {
 
   return (
     <main>
-        <section className= 'home home-download' >
-
+        <section className= 'home-download' >
+            <figure>
+              <img src={logo} alt="" />              
+            </figure>
             <div className='texto'>
               <h1>Baixe agora o melhor organizador de rotinas para estudantes</h1>
               <Btn text="Download" type='preenchido' link=''/>
             </div>
         </section>
       
-        <section className='home home-sobre'>
+        <section className='home-sobre'>
             <figure>
               <img src={logo} alt="" />              
             </figure>
@@ -34,7 +36,7 @@ const Home = () => {
             </div>
         </section>
       
-        <section className='home home-depoimentos'>
+        <section className='home-depoimentos'>
           <div className='home-depoimentos-destaque'>
             <div>
               <Carrosel/>
@@ -47,7 +49,7 @@ const Home = () => {
             </div>
         </section>
 
-        <section className='home home-quemSomos'>
+        <section className='home-quemSomos'>
           <div className='home-quemSomos-cards'>
             <Cards img={cortada} nome="Daniel Campillo" titulo='Desenvolvedor'/>
             <Cards img={cortada} nome="Diogenes Costa" titulo='Desenvolvedor'/>
