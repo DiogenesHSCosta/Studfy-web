@@ -14,7 +14,7 @@ button{
 
 button:hover{
     scale: 1.05; 
-    box-shadow: 1px 1px 9px 1px rgba(255,218,31,1);
+    box-shadow: 1px 1px 5px 1px rgba(255,218,31,1);
     transition-delay: 0.2s;
 }
 

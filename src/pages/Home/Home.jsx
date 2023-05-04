@@ -19,7 +19,7 @@ const Home = () => {
             </div>
         </section>
       
-        <section id='sobre' className='home home-sobre'>
+        <section className='home home-sobre'>
             <figure>
               <img src={logo} alt="" />              
             </figure>
@@ -39,7 +39,7 @@ const Home = () => {
             </div>
           </div>
             <div className='texto texto-depoimento'>
-              <h1>ver mais depoimento</h1>
+              <h1>Ver mais depoimentos</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam exercitationem at accusantium placeat harum perferendis impedit tempore? Optio placeat aut corrupti incidunt numquam molestias odit fugiat rem perspiciatis hic!</p>
               <Btn text="depoimentos" type='preenchido' link='/depoimentos'/>
             </div>

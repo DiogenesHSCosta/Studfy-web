@@ -40,7 +40,7 @@
 }
 
 .cabecalho-lista li{
-    margin: 10px 15px;
+    margin: 10px 10px;
 }
 
 .cabecalho-lista a{
@@ -48,6 +48,7 @@
     color: #fff;
     text-decoration: none;
     transition: 0.2s;
+    margin: 0px 5px 0px 0px;
 }
 
 .cabecalho-lista a::after{
