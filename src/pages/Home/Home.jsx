@@ -7,6 +7,8 @@ import cortada from '../../assets/cortada.jpg'
 
 import Btn from '../../Components/Btn/Btn.jsx'
 import Cards from '../../Components/Cards/Cards.jsx'
+import Carrosel from '../../Components/Carrossel/Carrosel'
+
 const Home = () => {  
 
   return (
@@ -35,7 +37,7 @@ const Home = () => {
         <section className='home home-depoimentos'>
           <div className='home-depoimentos-destaque'>
             <div>
-              <p>aqui vai um depoimento escolhido (Ou carrosel de depoimentos)</p>
+              <Carrosel/>
             </div>
           </div>
             <div className='texto texto-depoimento'>

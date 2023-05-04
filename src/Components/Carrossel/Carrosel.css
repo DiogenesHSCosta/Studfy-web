@@ -1,0 +1,29 @@
+.carrosel{
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+    cursor: grab;
+    padding-right: 50px;
+}
+
+.carrosel-content{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 0px 50px;
+}
+
+.carrosel-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 300px;
+}
+
+.carrosel-item p{
+    margin: 10px;
+}
