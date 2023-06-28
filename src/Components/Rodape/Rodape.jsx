@@ -8,35 +8,33 @@ const Rodape = () => {
   return (
     <footer className='rodape'>
       <div className='rodape-content'>
-        <div>
-          <figure>
-            <img src={logo} alt="logo Studfy" />              
-          </figure>
-        </div>
+        <figure>
+          <img src={logo} alt="logo Studfy" />              
+        </figure>
 
-        <div>
+        <nav>
           <p>Veja mais</p>
-            <ul>
+            <ul className='rodape-lista'>
               <Link to='/'><li>Home</li></Link>
               <Link to='/sobre'><li>sobre</li></Link>
               <Link to='/app'><li>app</li></Link>
             </ul>
-        </div>
+        </nav>
 
-        <div>
+        <nav>
           <p>Quem somos</p>
-            <ul>
+            <ul className='rodape-lista'>
               <Link to='/depoimentos'><li>Depoimentos</li></Link>
               <Link to='/quem-somos'><li>Quem Somos</li></Link>
             </ul>
-        </div>
+        </nav>
 
         <div>
           <Btn type="voltar" text="voltar" link=""></Btn>
         </div>
       </div>
       <div className='rodape-copy'>
-        <p>&copy 2023 Copyright - Studfy</p>
+        <p>&copy; 2023 Studfy</p>
       </div>
     </footer>
   )
