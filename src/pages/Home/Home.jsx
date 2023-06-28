@@ -15,7 +15,7 @@ const Home = () => {
     <padrao>
         <section className= 'home-download' >
             <figure>
-              <img src={logo} alt="" />              
+              <img src={logo} alt="logo Studfy" />              
             </figure>
             <div className='texto'>
               <h2>Baixe agora o melhor organizador de rotinas para estudantes</h2>
@@ -26,7 +26,7 @@ const Home = () => {
       
         <section className='home-sobre'>
             <figure>
-              <img src={logo} alt="" />              
+              <img src={logo} alt="logo Studfy" />              
             </figure>
             
             <div className='texto'>
