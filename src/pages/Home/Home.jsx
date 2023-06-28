@@ -12,14 +12,15 @@ import Carrosel from '../../Components/Carrossel/Carrosel'
 const Home = () => {  
 
   return (
-    <main>
+    <padrao>
         <section className= 'home-download' >
             <figure>
               <img src={logo} alt="" />              
             </figure>
             <div className='texto'>
-              <h1>Baixe agora o melhor organizador de rotinas para estudantes</h1>
-              <Btn text="Download" type='preenchido' link=''/>
+              <h2>Baixe agora o melhor organizador de rotinas para estudantes</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione neque vel iure. Eos, expedita? Dolores eveniet explicabo maxime recusandae pariatur quibusdam suscipit ipsam ipsa mollitia, cupiditate dolor ut incidunt consectetur.</p>
+              <Btn text="Download" type='padrao' link=''/>
             </div>
         </section>
       
@@ -29,10 +30,10 @@ const Home = () => {
             </figure>
             
             <div className='texto'>
-              <h1>informações sobre o app</h1>
+              <h2>informações sobre o app</h2>
 
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam exercitationem at accusantium placeat harum perferendis impedit tempore? Optio placeat aut corrupti incidunt numquam molestias odit fugiat rem perspiciatis hic!</p>
-              <Btn text="+ Sobre" type='preenchido' link='/sobre'/>
+              <Btn text="+ Sobre" type='padrao' link='/sobre'/>
             </div>
         </section>
       
@@ -43,13 +44,16 @@ const Home = () => {
             </div>
           </div>
             <div className='texto texto-depoimento'>
-              <h1>Ver mais depoimentos</h1>
+              <h2>Ver mais depoimentos</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam exercitationem at accusantium placeat harum perferendis impedit tempore? Optio placeat aut corrupti incidunt numquam molestias odit fugiat rem perspiciatis hic!</p>
-              <Btn text="depoimentos" type='preenchido' link='/depoimentos'/>
+              <Btn text="depoimentos" type='padrao' link='/depoimentos'/>
             </div>
         </section>
 
         <section className='home-quemSomos'>
+          <div>
+            <h2>QUEM SOMOS</h2>
+          </div>
           <div className='home-quemSomos-cards'>
             <Cards img={cortada} nome="Daniel Campillo" titulo='Desenvolvedor'/>
             <Cards img={cortada} nome="Diogenes Costa" titulo='Desenvolvedor'/>
@@ -59,7 +63,7 @@ const Home = () => {
           </div>
             
         </section>  
-    </main>
+    </padrao>
   )
 }
 

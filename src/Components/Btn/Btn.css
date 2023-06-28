@@ -1,4 +1,4 @@
-button{
+.padrao{
     position: relative;
     border-radius: 5px;
     width: 165px;
@@ -12,13 +12,13 @@ button{
     z-index: 10;
 }
 
-button:hover{
+.padrao:hover{
     scale: 1.05; 
     box-shadow: 1px 1px 5px 1px rgba(255,218,31,1);
     transition-delay: 0.2s;
 }
 
-button::after{
+.padrao::after{
     position: absolute;
     top: -15%;
     left: 15%;
@@ -31,8 +31,20 @@ button::after{
     transition: 0.5s;
 }
 
-button:hover::after{
+.padrao:hover::after{
     top: 0%;
     left: 0%;
+    border-radius: 5px;
+}
+
+.voltar{
+    width: 55px;
+    height: 55px;
+
+    color: #FFF;
+    margin: 30px 30px;
+    background-color: #00296B;
+
+    border: solid 1px #000000; 
     border-radius: 5px;
 }

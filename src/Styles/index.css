@@ -4,9 +4,11 @@
   font-weight: 400;
 }
 
-h1{
+h1, h2{
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
+  margin: 10px 0px;
 }
 main{
   width: 100%;
@@ -48,6 +50,6 @@ section img{
 }
 
 .texto{
-  margin: 0px 10px;
+  margin: 10px 10px;
   width: 40%;
 }

@@ -1,7 +1,6 @@
 .home-download{
     color: #fff;
     background-image: url("../../assets/fundoAzul.jpg");
-    text-align: center;
 }
 
 .home-depoimentos{
@@ -22,6 +21,10 @@
 .texto-depoimento{
     color: #fff;
     position: relative;
+}
+.home-quemSomos{
+    display: flex;
+    flex-direction: column;
 }
 
 .home-quemSomos-cards{
