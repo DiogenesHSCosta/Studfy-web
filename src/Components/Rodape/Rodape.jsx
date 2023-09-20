@@ -39,6 +39,4 @@ const Rodape = () => {
     </footer>
   )
 }
-
-disobessa
 export default Rodape
